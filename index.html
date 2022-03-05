@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Maker</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="maker.css">
+	<script type="text/javascript" src="maker.js"></script>
+</head>
+<body>
+	<div class="maker-main">
+		<div class="maker-bg-img">
+			<ul>
+				<li class="active">
+					<img src="images/homepage Banner.png"/>
+				</li>
+				<li>
+					<img src="images/slider3.jpg"/>
+				</li>
+				<li>
+					<img src="images/slider4.jpg"/>
+				</li>
+				<li>
+					<img src="images/slider5.jpg"/>
+				</li>
+			</ul>
+		</div>
+		<div class="mk-nav">
+			<div class="mk-nav-left">
+				<span>Maker</span>
+			</div>
+			<div class="mk-nav-right">
+				<ul>
+					<li class="active">
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="services.html">Services</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<a href="team.html">The Team</a>
+					</li>
+					<li>
+						<a href="blog.html">Blog</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="mk-header">
+			<div class="mk-header-content">
+				<h1>Lorem ipsum dolor sit amet, <br></br>featured title here</h1>
+				<p>Mauris dapibus, felis a commodo euismod, eros magna luctus magna, vitae placerat eros purus quis </p>
+				<a>Call to Action</a>
+			</div>
+			<div class="mk-header-pop disp-none">
+				<div class="mk-header-pop-content">
+					<h2>Enter your details</h2>
+					<form>
+						<div>
+							<label for="name">Name</label>
+							<input type="text" id="name" name="name">
+						</div>
+						<div>
+							<label for="email">Email</label>
+							<input type="email" id="email" name="email">
+						</div>	
+						<div>
+							<label for="company">Company</label>
+							<input type="text" id="company" name="company">
+						</div>
+						<div class="mk-pop-submit">
+							<input type="submit" name="submit">
+						</div>
+					</form>
+					<i>X</i>
+				</div>				
+			</div>
+		</div>
+		<div class="mk-service">
+			<h2>We provide great services</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim justo enim,</p>
+			<ul>
+				<li>
+					<img src="images/Vector Smart Object-3.png">
+					<span>Web Design</span>
+					<p>Vestibulum congue erat leo, eu malesuada mauris interdum ac</p>
+				</li>
+				<li>
+					<img src="images/Vector Smart Object.png">
+					<span>Identity & Branding</span>
+					<p>Vestibulum congue erat leo, eu malesuada mauris interdum ac</p>
+				</li>
+				<li>
+					<img src="images/Vector Smart Object-1.png">
+					<span>Print & Packaging</span>
+					<p>Vestibulum congue erat leo, eu malesuada mauris interdum ac</p>
+				</li>
+				<li>
+					<img src="images/Vector Smart Object-2.png">
+					<span>Content Writing</span>
+					<p>Vestibulum congue erat leo, eu malesuada mauris interdum ac</p>
+				</li>
+			</ul>
+		</div>
+		<div class="mk-testimony">
+			<div class="mk-testimony-content">
+				<ul>
+					<li class="mk-testimony-content-1 active" data-id='1'>
+						<h3>Johnatan Doe</h3>
+						<span>Marketing Specialist</span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim justo enim, ut vestibulum nibh pharetra ac. Vivamus egestas vel lacus et viverra</p>
+						<p>Donec aliquet eu diam vel vehicula. Suspendisse quis tempus erat. Vivamus faucibus eu sem in vehicula.</p>
+						<a>More</a>
+					</li>
+					<li class="mk-testimony-content-2" data-id='2'>
+						<h3>Sarah</h3>
+						<span>Sales Specialist</span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim justo enim, ut vestibulum nibh pharetra ac. Vivamus egestas vel lacus et viverra</p>
+						<p>Donec aliquet eu diam vel vehicula. Suspendisse quis tempus erat</p>
+						<a>More</a>
+					</li>
+					<li class="mk-testimony-content-3" data-id='3'>
+						<h3>Shaw</h3>
+						<span>Tech lead</span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim justo enim, ut vestibulum nibh pharetra ac. Vivamus egestas vel lacus et viverra</p>
+						<p>Donec aliquet eu diam vel vehicula. Suspendisse quis tempus erat</p>
+						<a>More</a>
+					</li>
+					<li class="mk-testimony-content-4" data-id='4'>
+						<h3>Sam Groves</h3>
+						<span>Email manager</span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim justo enim, ut vestibulum nibh pharetra ac. Vivamus egestas vel lacus et viverra</p>
+						<p>Donec aliquet eu diam vel vehicula. Suspendisse quis tempus erat</p>
+						<a>More</a>
+					</li>
+					<li class="mk-testimony-content-5" data-id='5'>
+						<h3>Melindz</h3>
+						<span>Advertiser</span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim justo enim, ut vestibulum nibh pharetra ac. Vivamus egestas vel lacus et viverra</p>
+						<p>Donec aliquet eu diam vel vehicula. Suspendisse quis tempus erat</p>
+						<a>More</a>
+					</li>
+					<li class="mk-testimony-content-6" data-id='6'>
+						<h3>Lionel fusco</h3>
+						<span>Marketing manager</span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim justo enim, ut vestibulum nibh pharetra ac. Vivamus egestas vel lacus et viverra</p>
+						<p>Donec aliquet eu diam vel vehicula. Suspendisse quis tempus erat</p>
+						<a>More</a>
+					</li>
+				</ul>				
+			</div>
+			<div class="mk-testimony-pictures">
+				<ul>
+					<li class="active" data-image='1'>
+						<img src="images/member-1.jpg">
+					</li>
+					<li data-image='2'>
+						<img src="images/member-2.jpg">
+					</li>
+					<li data-image='3'>
+						<img src="images/member-3.jpg">
+					</li>
+					<li data-image='4'>
+						<img src="images/member-4.jpg">
+					</li>
+					<li data-image='5'>
+						<img src="images/member-5.jpg">
+					</li>
+					<li data-image='6'>
+						<img src="images/member-6.jpg">
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="mk-banner">
+			<div class="mk-banner-content">
+				<h2>Our office, the place where we put together ideas</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim justo enim, ut vestibulum nibh pharetra</p>
+				<img src="images/video.png">
+				<div class="mk-popvideo disp-none">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/uFSDkzWZuqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<i>X</i>
+				</div>
+			</div>			
+		</div>
+		<div class="mk-features">
+			<h3>Best features in the world</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Mauris</p>
+			<ul>
+				<li>
+					<img src="images/Send.png">
+					<span>Sleek and smooth animation</span>
+					<p>Lorem ipsum dolor sit amet donec eu libero sit amet quam egastas semper</p>
+				</li>
+				<li>
+					<img src="images/Potion.png">
+					<span>Crafted with detail</span>
+					<p>Lorem ipsum dolor sit amet donec eu libero sit amet quam egastas semper</p>
+				</li>
+				<li>
+					<img src="images/Clock.png">
+					<span>Save your time</span>
+					<p>Lorem ipsum dolor sit amet donec eu libero sit amet quam egastas semper</p>
+				</li>
+				<li>
+					<img src="images/Display.png">
+					<span>Responsive on any device</span>
+					<p>Lorem ipsum dolor sit amet donec eu libero sit amet quam egastas semper</p>
+				</li>
+				<li>
+					<img src="images/OS.png">
+					<span>Easy to customize</span>
+					<p>Lorem ipsum dolor sit amet donec eu libero sit amet quam egastas semper</p>
+				</li>
+				<li>
+					<img src="images/Chat.png">
+					<span>Quickly, effective support</span>
+					<p>Lorem ipsum dolor sit amet donec eu libero sit amet quam egastas semper</p>
+				</li>
+			</ul>
+		</div>
+		<div class="mk-treehouse">
+			<div class="mk-treehouse-content">
+				<img src="images/treehouse.png">
+				<h3>"Uberthemes was by far the best choice we can made it.</br>Easy to customize it, their themes offers so much."</h3>
+				<p>Johnathan Doe, Web Developer</p>
+				<div class="mk-carousel-main">
+					<i class="mk-carousel-prev"></i>
+					<i class="mk-carousel-next"></i>
+					<div class="mk-carousel">					
+						<ul class="mk-carousel-container">					
+							<li data-count="1">
+								<img src="images/mannington-logo.png">
+								<p>Lorem ipsum dolor sit amet donec eu libero sit amet quam egastas semper</p>
+							</li>
+							<li data-count="2">
+								<img src="images/bonobos.png">
+								<p>Lorem ipsum dolor sit amet donec eu libero sit amet quam egastas semper</p>
+							</li>
+							<li data-count="3" class="active">
+								<img src="images/squarespace.png">
+								<p>Lorem ipsum dolor sit amet donec eu libero sit amet quam egastas semper</p>
+							</li>
+							<li data-count="4">
+								<img src="images/treehouse.png">
+								<p>Lorem ipsum dolor sit amet donec eu libero sit amet quam egastas semper</p>
+							</li>
+							<li data-count="5">
+								<img src="images/treehouse.png">
+								<p>Lorem ipsum dolor sit amet donec eu libero sit amet quam egastas semper</p>
+							</li>
+						</ul>
+					</div>
+				</div>						
+			</div>
+		</div>
+		<div class="mk-thankyou">
+			<h3>Feel free to download this wireframe </br> Stay updated for more</h3>
+			<a>Thank you</a>
+		</div>
+		<div class="mk-footer">
+			<div class="mk-footer-pricing">
+				<div class="mk-footer-column">
+					<span>FREELANCER</span>
+					<p><sup>$</sup>19<sub>/mo</sub></p>
+					<ul>
+						<li><b>5 psd</b> files included</li>
+						<li><b>24 hours</b> free support</li>
+						<li><b>Multiple</b> features installed</li>
+						<li><b>100</b> elements PSD + AI</li>
+					</ul>
+					<a>Click Me</a>
+				</div>
+				<div class="mk-footer-column">
+					<span>CORPORATE</span>
+					<p><sup>$</sup>29<sub>/mo</sub></p>
+					<ul>
+						<li><b>5 psd</b> files included</li>
+						<li><b>24 hours</b> free support</li>
+						<li><b>Multiple</b> features installed</li>
+						<li><b>100</b> elements PSD + AI</li>
+					</ul>
+					<a>Click Me</a>
+				</div>
+				<div class="mk-footer-column">
+					<span>AGENCY</span>
+					<p><sup>$</sup>39<sub>/mo</sub></p>
+					<ul>
+						<li><b>5 psd</b> files included</li>
+						<li><b>24 hours</b> free support</li>
+						<li><b>Multiple</b> features installed</li>
+						<li><b>100</b> elements PSD + AI</li>
+					</ul>
+					<a>Click Me</a>
+				</div>
+				<div class="mk-footer-column">
+					<span>ENTERPRISE</span>
+					<p><sup>$</sup>49<sub>/mo</sub></p>
+					<ul>
+						<li><b>5 psd</b> files included</li>
+						<li><b>24 hours</b> free support</li>
+						<li><b>Multiple</b> features installed</li>
+						<li><b>100</b> elements PSD + AI</li>
+					</ul>
+					<a>Click Me</a>
+				</div>
+			</div>	
+			<div class="mk-footer-content">
+				<div class="mk-footer-left">
+					<ul class="mk-footer-links">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a>Privacy</a>
+						</li>
+						<li>
+							<a>Terms & Condition</a>
+						</li>
+						<li>
+							<a href="about.html">About us</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact us</a>
+						</li>
+					</ul>
+					<ul class="mk-footer-social">
+						<li>
+							<img src="images/facebook.svg">
+						</li>
+						<li>
+							<img src="images/twitter.svg">
+						</li>
+						<li>
+							<img src="images/pinterest.svg">
+						</li>
+						<li>
+							<img src="images/linkedin.svg">
+						</li>
+					</ul>
+				</div>
+				<p>A new era 2022.Awesome wireframe & coding by Andrei Dorin</p>
+			</div>		
+		</div>
+	</div>
+</body>
+</html>
